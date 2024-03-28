@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-    
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 .Customer_big_container{
     height: 100vh;
 }
@@ -23,7 +27,6 @@
 .Customer_lien_admin .active_lien{
     clip-path: polygon(0 0, 92% 0, 100% 50% , 92% 100%, 0 100%);
     transform: translate(10px) scale(1.08);
-   
 }
 
 .Customer_lien_admin a:hover{
@@ -39,7 +42,7 @@
   }
 
 .Customer_Line_Chart{
-    /* background-color: gray; */
+
 }
 
 
@@ -94,9 +97,9 @@
     width: 750px; 
     height: 20px;
     background-color: rgb(209, 209, 209);
-    margin: 10px;
-    margin-bottom: 20px;
+  
 }
+
 @media not all and (min-width: 1536px) {
     .skill-box{
         width: 150px; 
@@ -109,8 +112,76 @@
         width: 550px; 
         height: 20px;
         background-color: rgb(209, 209, 209);
-        margin: 10px;
-        margin-bottom: 20px;
+ 
     }
 }
 
+
+@media not all and (min-width: 1280px) { 
+  
+    .Customer_lien_admin a:hover{
+        background-image: linear-gradient(90deg,rgb(144, 0, 255),rgb(217, 53, 217),rgb(255, 58, 130));
+        cursor: pointer;
+        font-weight: 600;
+        color: white;
+        border-radius: 5px;
+    }
+    .skill-box{
+        width: 100px; 
+        height: 20px;
+        background-color: rgb(209, 209, 209);
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+    .skill-box-File{
+        width: 550px; 
+        height: 20px;
+        background-color: rgb(209, 209, 209);
+    
+    }
+ }
+
+ @media not all and (min-width : 816px){
+    .Customer_Doughnut{
+        width: 200px;
+        position: relative;
+        left: 5%;
+        text-align: center;
+    }
+    .skill-box-File{
+        width: 350px; 
+        height: 20px;
+        background-color: rgb(209, 209, 209);
+  
+    }
+ }
+
+ @media not all and (min-width: 768px) { 
+   
+    .Customer_Doughnut{
+        width: 200px;
+        position: relative;
+        left: 40%;
+        text-align: center;
+    }
+  }
+
+  @media not all and (min-width: 300px) { 
+   
+    .Customer_Doughnut{
+        width: 200px;
+        height: 0px;
+        position: relative;
+        left: 20%;
+        text-align: center;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .Customer_Line_Chart{
+
+      width: 100%; 
+    }
+ 
+  }
+  
