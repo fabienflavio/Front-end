@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    
+.Customer_big_container{
+    height: 100vh;
+}
+
+.Customer_form{
+    height: 360px;
+}
+
+.Customer_container_reset_password{ 
+    height: 100vh;
+
+}
+
+.Customer_container_dashbord{
+    height: 100vh;
+}
+
+.Customer_lien_admin .active_lien{
+    clip-path: polygon(0 0, 92% 0, 100% 50% , 92% 100%, 0 100%);
+    transform: translate(10px) scale(1.08);
+   
+}
+
+.Customer_lien_admin a:hover{
+    background-image: linear-gradient(90deg,rgb(144, 0, 255),rgb(217, 53, 217),rgb(255, 58, 130));
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.my-chart {
+    width:800px;
+    height: 400px;
+  }
+
+.Customer_Line_Chart{
+    /* background-color: gray; */
+}
+
+
+.horizontal{
+    background-color: gray;
+    width: 500px;
+}
+
+.Customer_container_2{
+    height: 52vh;
+    padding: 10px;
+}
+
+.Customer_Doughnut{
+    width: 200px;
+    position: relative;
+    left: 35%;
+    
+    text-align: center;
+}
+
+.Total_Value{
+    position: absolute;
+    left: 80px;
+    top: 90px;
+    color: rgb(144, 0, 255);
+    
+}
+
+.skill-box{
+    width: 150px; 
+    height: 20px;
+    background-color: rgb(209, 209, 209);
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.skill-bar{
+    background-image: linear-gradient(90deg,rgb(144, 0, 255),rgb(217, 53, 217),rgb(255, 58, 130)); 
+    height: 20px;
+ 
+}
+
+.skill-bar-color{
+  height: 30px;
+  color: white;
+  padding-left:10px ;
+}
+
+
+.skill-box-File{
+    width: 750px; 
+    height: 20px;
+    background-color: rgb(209, 209, 209);
+    margin: 10px;
+    margin-bottom: 20px;
+}
+@media not all and (min-width: 1536px) {
+    .skill-box{
+        width: 150px; 
+        height: 20px;
+        background-color: rgb(209, 209, 209);
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+    .skill-box-File{
+        width: 550px; 
+        height: 20px;
+        background-color: rgb(209, 209, 209);
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+}
+
