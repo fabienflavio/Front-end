@@ -161,7 +161,7 @@ const options1 = {
               {/* ---------------------------------------------- */}
     
 
-            <div className="max-md:h-full h-full  max-md:flex-col  max-2xl:w-full Customer_container_2  rounded-lg  ">
+            <div className="w-3/6 max-md:h-full  max-md:flex-col  max-2xl:w-full Customer_container_2  rounded-lg  ">
                   
                      {/* ---------------------------------------------- */}
                     {/* {/* ---------------------------------------------- */}  
@@ -191,9 +191,9 @@ const options1 = {
                     {/* ---------------------------------------------- */}
     
 
-                  <br /><br />
-                  <div className="max-md:h-full ">
-                            <div className="max-md:w-full flex flex-row justify-between ">
+                
+                  <div className="max-md:h-full max-md:mt-5 ">
+                            <div className=" flex flex-row justify-between max-md:inline-block">
                               <h1 className="text-purple-700 text-xl max-lg:text-sm">File Distribution by Type </h1>
                             </div>
                             <br />
@@ -201,7 +201,7 @@ const options1 = {
                       
                                 
                         
-                            <div className="max-md:w-5/6 skill-box-File flex flex-row justify-start  max-xl:w-96 max-lg:w-60">
+                            <div className="max-md:mt-5 max-md:w-5/6 skill-box-File flex flex-row justify-start  max-xl:w-96 max-lg:w-60">
                                     <div className="skill-bar-color bg-purple-700 border-2" style={{width :`20%`}}>
                                       <p> Video Files : 289 GB</p>
                                     </div>
@@ -232,7 +232,7 @@ const options1 = {
                             <br />
                             <br />
 
-                            <div className="max-md:w-full  w-5/6 max-xl:flex max-xl:flex-row">
+                            <div className="max-md:mb-40 Container_data_2    max-md:w-full  w-5/6 max-xl:flex max-xl:flex-row">
                               <div className=" flex flex-row justify-between mx-5 max-2xl:w-full  max-xl:justify-start max-xl:flex-col ">
                                 <div className=" pb-2">
                                       <p className="max-xl:text-xs ">Video Files</p>
@@ -258,27 +258,27 @@ const options1 = {
 
 
                               <div className=" flex flex-row justify-between mx-5  max-2xl:w-full max-xl:justify-start max-xl:flex-col ">
-                              <div className=" pb-2">
-                                      <p className="max-xl:text-xs "> PDFs </p>
-                                      <b className="text-violet-700 text-xs">102 GB</b>
-                                
-                                </div>
-                                <div className=" pb-2">
-                                      <p className="max-xl:text-xs ">Spreadsheets</p>
-                                      <b className="text-violet-700 text-xs">102 GB</b>
-                                
-                                </div>
-                                <div className=" pb-2">
-                                      <p className="max-xl:text-xs ">Text Files</p>
-                                      <b className="text-violet-700 text-xs">102 GB</b>
-                                
-                                </div>
-                                <div className=" pb-2">
-                                      <p className="max-xl:text-xs">Everythings else</p>
-                                      <b className="text-violet-700 text-xs"> 102 GB</b>
-                                
-                                </div>
-                                
+                                  <div className=" pb-2">
+                                        <p className="max-xl:text-xs "> PDFs </p>
+                                        <b className="text-violet-700 text-xs">102 GB</b>
+                                  
+                                  </div>
+                                  <div className=" pb-2">
+                                        <p className="max-xl:text-xs ">Spreadsheets</p>
+                                        <b className="text-violet-700 text-xs">102 GB</b>
+                                  
+                                  </div>
+                                  <div className=" pb-2">
+                                        <p className="max-xl:text-xs ">Text Files</p>
+                                        <b className="text-violet-700 text-xs">102 GB</b>
+                                  
+                                  </div>
+                                  <div className=" pb-2">
+                                        <p className="max-xl:text-xs">Everythings else</p>
+                                        <b className="text-violet-700 text-xs"> 102 GB</b>
+                                  
+                                  </div>
+                                  
                               </div>
                             </div>
 
@@ -293,7 +293,7 @@ const options1 = {
     
 
             
-            <div className=" max-md:mt-5   max-xl:inline-block flex flex-col w-2/6 max-2xl:w-full rounded-lg p-2  ">
+            <div className="max-md:mt-32  max-md:inline-block   max-xl:inline-block flex flex-col w-2/6 max-2xl:w-full rounded-lg p-2  ">
               <div className="max-xl:text-xs ">
                 <div className="flex flex-row justify-between ">
                     <h1 className="max-lg:text-sm text-purple-700 text-xl">Data Age</h1>
@@ -302,7 +302,7 @@ const options1 = {
                 <br />
                 <hr />
                 <div>
-                    <div className="Customer_Doughnut " style={{height: "200px"}}>
+                    <div className="Customer_Doughnut" style={{}}>
                       <Doughnut  data={data1} options={options1}/>
                         <span className="Total_Value">
                           {totalData} Go

@@ -7,6 +7,11 @@ body{
     padding: 0px;
 }
 
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
 .Customer_big_container{
     height: 100vh;
 }
@@ -57,11 +62,13 @@ body{
 }
 
 .Customer_Doughnut{
-    width: 200px;
     position: relative;
-    left: 35%;
-    
     text-align: center;
+    margin: auto;
+    padding: auto;
+    height: 200px;
+    width: 200px;
+    
 }
 
 .Total_Value{
@@ -147,6 +154,7 @@ body{
         position: relative;
         left: 5%;
         text-align: center;
+        margin: auto;
     }
     .skill-box-File{
         width: 350px; 
@@ -161,11 +169,23 @@ body{
     .Customer_Doughnut{
         width: 200px;
         position: relative;
-        left: 40%;
+    
         text-align: center;
+        margin: auto;
     }
     .Customer_big_container{
         height: 200vh;
+        margin: auto;
+    }
+    .Customer_container_2 {
+        height: 50vh;
+        
+        display: inline-block;
+    }
+    .Container_data_2 {
+        height: 200px;
+        display: inline-block;
+       
     }
   }
 
@@ -177,6 +197,7 @@ body{
         position: relative;
         left: 20%;
         text-align: center;
+        margin: auto;
     }
   }
 
@@ -196,6 +217,7 @@ body{
         position: relative;
         left: 10%;
         text-align: center;
+        margin: auto;
     }
  
   }
@@ -313,3 +335,153 @@ body{
     width: 100%;
     font-size: 16px;
 }
+
+
+
+.Customer_Doughnut-storage{
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+@media not all and (min-width: 1536px) {
+  
+}
+
+
+@media not all and (min-width: 1080px) { 
+    .Customer_Doughnut-storage{
+        width: 200px;
+        height: 300px;
+        text-align: center;
+        margin: auto;
+    }
+    
+ }
+
+ @media not all and (min-width : 816px){
+    .Customer_Doughnut{
+        width: 20px;
+        position: relative;
+        left: 5%;
+        text-align: center;
+        margin: auto;
+    }
+    .skill-box-File{
+        width: 350px; 
+        height: 20px;
+        background-color: rgb(209, 209, 209);
+  
+    }
+ }
+
+ @media not all and (min-width: 768px) { 
+   
+    .Customer_Doughnut{
+        width: 200px;
+        position: relative;
+    
+        text-align: center;
+        margin: auto;
+    }
+    .Customer_big_container{
+        height: 200vh;
+        margin: auto;
+    }
+    .Customer_container_2 {
+        height: 50vh;
+        
+        display: inline-block;
+    }
+    .Container_data_2 {
+        height: 200px;
+        display: inline-block;
+       
+    }
+
+
+
+.dropbtn {
+   
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+   
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 20px;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+  }
+
+  }
+
+  @media not all and (min-width: 300px) { 
+   
+    .Customer_Doughnut{
+        width: 200px;
+        height: 0px;
+        position: relative;
+        left: 20%;
+        text-align: center;
+        margin: auto;
+    }
+  }
+
+  @media (max-width: 300px) {
+    /* .Customer_Line_Chart{
+        height: 150vh;
+      width: 100%; 
+    }
+
+    .Customer_container_dashbord{
+        height: 150vh;
+    } */
+     
+    .Customer_Doughnut{
+        width: 200px;
+        height: 0px;
+        position: relative;
+        left: 10%;
+        text-align: center;
+        margin: auto;
+    }
+ 
+  }
+  
