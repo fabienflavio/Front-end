@@ -10,6 +10,8 @@ import { MdEditDocument } from "react-icons/md";
 import { RiDeleteBin5Line } from "react-icons/ri";
 import { useRouter } from 'next/navigation';
 import { FaToggleOn } from "react-icons/fa6";
+import { LuFileSymlink } from "react-icons/lu";
+
 
 
 
@@ -182,7 +184,7 @@ export default function dashboard( ) {
                                   <td className=" border-4 max-lg:text-sm  ">433</td>
                                   <td className=" border-4 max-lg:text-sm  ">Web App</td>
                                   <td className=" border-4 max-lg:text-sm  ">02-03-2025</td>
-                                  <td className="border-4 max-lg:text-sm  ">http://onedrive.live.com/edi</td>
+                                  <td className="border-4 max-lg:text-sm  "> {OnEnable ? "" : "http://onedrive.live.com/edi" } {OnEnable ? "" : <LuFileSymlink style={{color:"purple",fontSize:"20px"}}/>}    </td>
                                   <td className="   border-2"> 
                                     <div className="flex flex-row max-lg:text-sm">
                                               <div className="skill-box" >
