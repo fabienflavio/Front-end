@@ -189,6 +189,7 @@ const data_free = data1.datasets[0].data[1]
                 <div className="text-purple-700 font-black m-2">Table</div>
                 <div className="text-purple-700 font-black m-2">Total : 05</div>
               </div>
+              
                <table className="w-full bg-white ">
                 <thead >
                   <tr className="bg-purple-700 border-b-4 bg-gradient-to-r from-purple-600 to-pink-600 p-5 rounded-md">

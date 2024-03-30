@@ -359,6 +359,7 @@ html{
         text-align: center;
         margin: auto;
     }
+
     
  }
 
@@ -369,6 +370,7 @@ html{
         left: 5%;
         text-align: center;
         margin: auto;
+     
     }
     .skill-box-File{
         width: 350px; 
@@ -376,6 +378,7 @@ html{
         background-color: rgb(209, 209, 209);
   
     }
+    
  }
 
  @media not all and (min-width: 768px) { 
@@ -484,4 +487,71 @@ html{
     }
  
   }
+
+/**************************************************************************************************************************/
+.Files{
+    background-image: linear-gradient(90deg,rgb(144, 0, 255),rgb(217, 53, 217),rgb(255, 58, 130));
+    font-size: 20px;
+    padding: 13px;
+    color: white;
+    border-radius: 5px; 
+    margin-right:15px ;
+}
+
+.custom-file-input {
+    /* Cacher le texte de l'élément <input type="file"> */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 0;
+  }
   
+  .custom-file-input input[type="file"] {
+    /* Étendre l'élément <input type="file"> pour occuper tout l'espace de son parent */
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Target the file input element */
+.custom-file-input[type="file"] {
+    /* Hide the default button visually */
+    opacity: 0;
+    width: 100px; /* Adjust width as needed */
+  }
+  
+  /* Style the custom button using pseudo-element */
+  .custom-file-input[type="file"]::-webkit-file-upload-button {
+    border: 1px solid #ff0000; /* Add border for visibility */
+    color: #011b1a; /* Set button text color */
+    background-color: #000000; /* Set button background color */
+    padding: 5px 10px; /* Adjust padding as needed */
+    cursor: pointer; /* Set cursor to indicate interactivity */
+    overflow: hidden; /* Clip text if it overflows */
+    text-align: center; /* Center text alignment */
+    white-space: nowrap; /* Prevent text wrapping */
+    display: inline-block; /* Allow inline display */
+  }
+  
+  /* Style the text content of the button (optional) */
+  .custom-file-input[type="file"]::-webkit-file-upload-button::before {
+    content: "Select a File"; /* Set your desired text */
+  }
+
+  .test:hover{
+    cursor: pointer;
+
+}
+
+.enable{
+    color: red;
+    background-color: white;
+}
+.Tableaux{
+    overflow-x: auto;
+  
+}
+   

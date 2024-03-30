@@ -171,9 +171,9 @@ const options1 = {
                   <div className="max-md:w-full max-2xl:w-5/6    flex flex-row justify-between bg-white p relative p-2 bottom-3">
                       <h1 className="max-lg:text-sm text-2xl text-purple-700 font-semibold">Storage</h1>
                         <select className=" p-2 rounded-md bg-purple-700 text-white">
-                          <option value="" selected>Monthly</option>
-                          <option value="">Weekly</option>
-                          <option value="">Yearly</option>
+                          <option value="Monthly" selected>Monthly</option>
+                          <option value="Weekly">Weekly</option>
+                          <option value="Yearly">Yearly</option>
                         </select>
                   </div>
 
