@@ -27,6 +27,7 @@ html{
 
 .Customer_container_dashbord{
     height: 100vh;
+   
 }
 
 .Customer_lien_admin .active_lien{
@@ -46,9 +47,7 @@ html{
     height: 400px;
   }
 
-.Customer_Line_Chart{
 
-}
 
 
 .horizontal{
@@ -56,10 +55,7 @@ html{
     width: 500px;
 }
 
-.Customer_container_2{
-    height: 52vh;
-    padding: 10px;
-}
+
 
 .Customer_Doughnut{
     position: relative;
@@ -154,14 +150,14 @@ html{
         position: relative;
         left: 5%;
         text-align: center;
-        margin: auto;
+      
     }
     .skill-box-File{
         width: 350px; 
         height: 20px;
         background-color: rgb(209, 209, 209);
   
-    }
+    } 
  }
 
  @media not all and (min-width: 768px) { 
@@ -171,57 +167,14 @@ html{
         position: relative;
     
         text-align: center;
-        margin: auto;
+        
     }
     .Customer_big_container{
         height: 200vh;
-        margin: auto;
-    }
-    .Customer_container_2 {
-        height: 50vh;
         
-        display: inline-block;
-    }
-    .Container_data_2 {
-        height: 200px;
-        display: inline-block;
-       
-    }
-  }
+    }  
 
-  @media not all and (min-width: 300px) { 
-   
-    .Customer_Doughnut{
-        width: 200px;
-        height: 0px;
-        position: relative;
-        left: 20%;
-        text-align: center;
-        margin: auto;
-    }
   }
-
-  @media (max-width: 300px) {
-    /* .Customer_Line_Chart{
-        height: 150vh;
-      width: 100%; 
-    }
-
-    .Customer_container_dashbord{
-        height: 150vh;
-    } */
-     
-    .Customer_Doughnut{
-        width: 200px;
-        height: 0px;
-        position: relative;
-        left: 10%;
-        text-align: center;
-        margin: auto;
-    }
- 
-  }
-  
 
 
 
@@ -280,11 +233,6 @@ html{
 
   h1 {
     text-align: center;
-}
-
-/* Create a container using CSS properties */
-.container {
-   
 }
 
 /* Apply CSS properties to ui-widgets class */

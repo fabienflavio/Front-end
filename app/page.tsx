@@ -1,9 +1,7 @@
 
-
-export default function Home() {
+import Dashboard_client from "./(dash)/dashboard/dashboardData";
+export default function dashboard() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <h2>Bienvenu sur Next Js</h2>
-    </main>
+    < Dashboard_client />
   );
 }
