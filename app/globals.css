@@ -12,6 +12,14 @@ html{
     padding: 0px;
 }
 
+.Container_2{
+    max-width: 800px;
+}
+
+.Container_3{
+    max-width:600px;
+}
+
 .Customer_big_container{
     height: 100vh;
 }
@@ -27,7 +35,20 @@ html{
 
 .Customer_container_dashbord{
     height: 100vh;
-   
+
+    min-height: 780px;
+    overflow-y: auto;
+}
+
+.Customer_lien_admin{
+
+    min-height: 780px;
+    overflow-y: auto;
+    max-width: 350px;
+}
+
+.Container_data_2 {
+    max-width: 800px;
 }
 
 .Customer_lien_admin .active_lien{
@@ -158,6 +179,12 @@ html{
         background-color: rgb(209, 209, 209);
   
     } 
+    .Customer_lien_admin{
+
+        min-height: 70px;
+        overflow-y: auto;
+        max-width: 350px;
+    }
  }
 
  @media not all and (min-width: 768px) { 
@@ -352,11 +379,24 @@ html{
         display: inline-block;
        
     }
+    .Container_3{
+
+        min-height: 800px;
+        overflow-y: auto;
+    }
+    .Container_2{
+        max-height: 1000px;
+        height: 1000px;
+        margin: 5px;
+    }
+    .Customer_container_dashbord{
+        min-height: 810px;
+        overflow-y: auto;
+    }
 
 
 
 .dropbtn {
-   
     font-size: 10px;
     border: none;
     cursor: pointer;

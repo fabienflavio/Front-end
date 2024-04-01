@@ -125,7 +125,7 @@ const totalData = data1.datasets[0].data.reduce((acc, curr) => acc + curr, 0);
             <Link href={"/login"} style={{display:`${dataVisibleMenu}`,width:`${dataWidhtMenu}`}} className="max-xl:text-sm max-xl:p-2 max-xl:hidden text-white p-5 text-base text-center bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl">Logout</Link>
           </div>
 
-          <div className=" border-red-700 mt-3 h-full w-3/6 max-md:h-full  max-md:flex-col  max-2xl:w-full Customer_container_2  rounded-lg  "> 
+          <div className="Container_2 border-red-700 mt-3 h-full w-3/6 max-md:h-full  max-md:flex-col  max-2xl:w-full Customer_container_2  rounded-lg  "> 
             <div className=" max-md:w-full max-2xl:w-5/6    flex flex-row justify-between bg-white p relative p-2 bottom-3">
               <h1 className="max-lg:text-sm text-2xl text-purple-700 font-semibold">Storage</h1>
               <select value={selectedValue} onChange={handleChange}  className=" p-2 rounded-md bg-purple-700 text-white">
@@ -227,129 +227,129 @@ const totalData = data1.datasets[0].data.reduce((acc, curr) => acc + curr, 0);
               </div>
             </div>
 
-          </div>
+            </div>
                   
           </div>
             
-          <div  className=" border-yellow-500 max-md:mt-3  max-md:inline-block   max-xl:inline-block flex flex-col w-2/6 max-2xl:w-full rounded-lg p-2  ">
-          <div className="max-xl:text-xs ">
-            <div className="flex flex-row justify-between ">
-              <h1 className="max-lg:text-sm text-purple-700 text-xl">Data Age</h1>
-              <a href="" className="text-pink-700 hover:text-violet-700 hover:underline ">Dowload Data</a>
-            </div>
-            <br />
-            <hr />
-            <div>
-                <div className="Customer_Doughnut" style={{}}>
-                  <Doughnut  data={data1} options={options1}/>
-                    <span className="Total_Value">
-                      {totalData} Go
-                    </span>
-                </div>
-            </div>
-
-
-            <div className="flex flex-row justify-between ">
-          
-                <ul className="p-2 leading-10">
-                  <li className=""> Less than 1 month :</li>
-                  <li className="">1 to 3 months</li>
-                  <li className=""> 3 months to 1 year  :</li>
-                  <li className=""> Older than 1 yearnth :</li>    
-                </ul>
-          
-                <ul className="p-2 leading-10 ">
-                    <li className=""> <span>120 Go</span> </li>
-                  <li className="">  <span>10 Go</span> </li>
-                  <li className="">  <span>60 Go</span> </li>
-                  <li className="">  <span>90 Go</span> </li>    
-                
-                </ul>
-                
-                <ul className="p-2 leading-10">
-                  <li className=""> <span>10%</span> </li>
-                  <li className="">  <span>40%</span> </li>
-                  <li className="">  <span>60%</span> </li>
-                  <li className="">  <span>90%</span> </li>    
-                
-                    
-                </ul> 
-            
-            </div>
-
-                  {/* ---------------------------------------------- */}
-              {/* {/* ---------------------------------------------- */}  
-              {/* ---------------------------------------------- */}
-    
-          </div>
-
-          <div className="  mt-5">
+          <div  className="Container_3  border-yellow-500 max-md:mt-3  max-md:inline-block   max-xl:inline-block flex flex-col w-2/6 max-2xl:w-full rounded-lg p-2  ">
+            <div className="  max-xl:text-xs ">
               <div className="flex flex-row justify-between ">
-                <h1 className="max-lg:text-sm text-purple-700 text-xl">File Distribution by Size </h1>
-                <a href="" className="max-lg:text-sm text-pink-700 hover:text-violet-700 hover:underline ">Dowload Data</a>
+                <h1 className="max-lg:text-sm text-purple-700 text-xl">Data Age</h1>
+                <a href="" className="text-pink-700 hover:text-violet-700 hover:underline ">Dowload Data</a>
               </div>
-
               <br />
               <hr />
+              <div>
+                  <div className="Customer_Doughnut" style={{}}>
+                    <Doughnut  data={data1} options={options1}/>
+                      <span className="Total_Value">
+                        {totalData} Go
+                      </span>
+                  </div>
+              </div>
 
-            <div className="flex flex-row justify-between ">
-        
-              <ul className="p-2 leading-10">
-                <li > <span className="max-xl:text-xs">  Less than 1 month :</span> </li>
-                <li className=""> <span className="max-xl:text-xs"> 1 to 3 months</span></li>
-                <li className=""> <span className="max-xl:text-xs">3 months to 1 year  :</span> </li>
-                <li className=""> <span className="max-xl:text-xs">Older than 1 yearnth :</span> </li>    
-                <li className=""> <span className="max-xl:text-xs"> 1Go :</span> &rsaquo;</li>    
-              </ul>
-        
-              <ul className="p-2 leading-10 max-lg:absolute max-lg:right-10">
-                  <li className=""> <span className="max-xl:text-xs ">120 Go</span> </li>
-                <li className="">  <span className="max-xl:text-xs">10 Go</span> </li>
-                <li className="">  <span className="max-xl:text-xs">60 Go</span> </li>
-                <li className="">  <span className="max-xl:text-xs">90 Go</span> </li>    
-                <li className="">  <span  className="max-xl:text-xs">90 Go</span> </li>    
+
+              <div className="flex flex-row justify-between ">
+            
+                  <ul className="p-2 leading-10">
+                    <li className=""> Less than 1 month :</li>
+                    <li className="">1 to 3 months</li>
+                    <li className=""> 3 months to 1 year  :</li>
+                    <li className=""> Older than 1 yearnth :</li>    
+                  </ul>
+            
+                  <ul className="p-2 leading-10 ">
+                      <li className=""> <span>120 Go</span> </li>
+                    <li className="">  <span>10 Go</span> </li>
+                    <li className="">  <span>60 Go</span> </li>
+                    <li className="">  <span>90 Go</span> </li>    
+                  
+                  </ul>
+                  
+                  <ul className="p-2 leading-10">
+                    <li className=""> <span>10%</span> </li>
+                    <li className="">  <span>40%</span> </li>
+                    <li className="">  <span>60%</span> </li>
+                    <li className="">  <span>90%</span> </li>    
+                  
+                      
+                  </ul> 
               
-              </ul>
-                    
-              <ul className="p-2">
-                  <div className="skill-box">
-                    <div className="skill-bar" style={{width :`90%`}}>
-                        
-                    </div>
+              </div>
 
-                  </div>
-                  
-                  <div className="skill-box">
-                    <div className="skill-bar" style={{width :`70%`}}>
-                        
-                    </div>
-
-                  </div>
-                  <div className="skill-box">
-                    <div className="skill-bar" style={{width :`60%`}}>
-                        
-                    </div>
-
-                  </div>
-                  <div className="skill-box">
-                    <div className="skill-bar" style={{width :`40%`}}>
-                        
-                    </div>
-
-                  </div>
-                  <div className="skill-box">
-                    <div className="skill-bar" style={{width :`20%`}}>
-                        
-                    </div>
-
-                  </div>
-
-                  
-              </ul> 
-                
+                    {/* ---------------------------------------------- */}
+                {/* {/* ---------------------------------------------- */}  
+                {/* ---------------------------------------------- */}
+      
             </div>
 
-          </div>
+            <div className="mt-5">
+                <div className="flex flex-row justify-between ">
+                  <h1 className="max-lg:text-sm text-purple-700 text-xl">File Distribution by Size </h1>
+                  <a href="" className="max-lg:text-sm text-pink-700 hover:text-violet-700 hover:underline ">Dowload Data</a>
+                </div>
+
+                <br />
+                <hr />
+
+              <div className="flex flex-row justify-between ">
+          
+                <ul className="p-2 leading-10">
+                  <li > <span className="max-xl:text-xs">  Less than 1 month :</span> </li>
+                  <li className=""> <span className="max-xl:text-xs"> 1 to 3 months</span></li>
+                  <li className=""> <span className="max-xl:text-xs">3 months to 1 year  :</span> </li>
+                  <li className=""> <span className="max-xl:text-xs">Older than 1 yearnth :</span> </li>    
+                  <li className=""> <span className="max-xl:text-xs"> 1Go :</span> &rsaquo;</li>    
+                </ul>
+          
+                <ul className="p-2 max-md:hidden leading-10 max-lg:absolute max-lg:right-10">
+                    <li className=""> <span className="max-xl:text-xs ">120 Go</span> </li>
+                  <li className="">  <span className="max-xl:text-xs">10 Go</span> </li>
+                  <li className="">  <span className="max-xl:text-xs">60 Go</span> </li>
+                  <li className="">  <span className="max-xl:text-xs">90 Go</span> </li>    
+                  <li className="">  <span  className="max-xl:text-xs">90 Go</span> </li>    
+                
+                </ul>
+                      
+                <ul className="p-2">
+                    <div className="skill-box">
+                      <div className="skill-bar" style={{width :`90%`}}>
+                          
+                      </div>
+
+                    </div>
+                    
+                    <div className="skill-box">
+                      <div className="skill-bar" style={{width :`70%`}}>
+                          
+                      </div>
+
+                    </div>
+                    <div className="skill-box">
+                      <div className="skill-bar" style={{width :`60%`}}>
+                          
+                      </div>
+
+                    </div>
+                    <div className="skill-box">
+                      <div className="skill-bar" style={{width :`40%`}}>
+                          
+                      </div>
+
+                    </div>
+                    <div className="skill-box">
+                      <div className="skill-bar" style={{width :`20%`}}>
+                          
+                      </div>
+
+                    </div>
+
+                    
+                </ul> 
+                  
+              </div>
+
+            </div>
           </div>
         </div>
       </>
